@@ -1,14 +1,3 @@
-<?php
-    $uname = $_POST["nameuser"];
-?>
-<?php
-   session_start();
-   if($_SESSION['login_user']){
-      echo "Welcome user " . $_SESSION["login_user"];
-   }else{
-      header("location:login_page.html");
-   }
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,9 +16,6 @@
   <!-- CSS Files -->
   <link href="../documentation/css/material-dashboard.css?v=2.1.2" rel="stylesheet" />
   <link href="../documentation/demo/demo.css" rel="stylesheet" />
-  <?php
-    $total_items  = count( glob("/var/log/client_devices/$uname/*") );
-  ?>
 </head>
 
 <body class="">
