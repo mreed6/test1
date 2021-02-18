@@ -27,6 +27,22 @@
             </li>
         </ul>
     </nav>
+    <div class="container">
+        <h2>Width</h2>
+        <div class="w-auto p-3" style="background-color: #aaa;">Width : auto</div>
+        <br>
+        <div class="w-100 p-3" style="background-color: #aaa;">Width : 100%</div>
+        <br>
+        <div class="w-75 p-3" style="background-color: #aaa;">Width : 75%</div>
+        <br>
+        <div class="w-50 p-3" style="background-color: #aaa;">Width : 50%</div>
+        <br>
+        <div class="w-25 p-3" style="background-color: #aaa;">Width : 25%</div>
+        <br>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
