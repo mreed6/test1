@@ -114,19 +114,6 @@
                              <h3 class="card-title">Log Files</h3>
                             </div>
                             <div class="card-body ">
-                                <?php
-                                    echo "Here are the log files<br><br>";
-                                    $path = "/var/log/client_devices/$uname";
-                                    $dh = opendir($path);
-                                    $i=1;
-                                    while (($file = readdir($dh)) !== false) {
-                                        if($file != "." && $file != ".." && $file != "sample.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
-                                        echo "<a href='/logfiles/" . $uname . "/$file'>$file</a><br /><br />";
-                                        $i++;
-                                            }
-                                        }
-                                    closedir($dh);
-                                ?>
                             </div>
                             <div class="card-footer ">
                             <hr>
