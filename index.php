@@ -187,12 +187,6 @@
         <li class="button-container">
           <a href="https://www.creative-tim.com/product/material-dashboard" target="_blank" class="btn btn-primary btn-block">Free Download</a>
         </li>
-        <!-- <li class="header-title">Want more components?</li>
-            <li class="button-container">
-                <a href="https://www.creative-tim.com/product/material-dashboard-pro" target="_blank" class="btn btn-warning btn-block">
-                  Get the pro version
-                </a>
-            </li> -->
         <li class="button-container">
           <a href="https://demos.creative-tim.com/material-dashboard/docs/2.1/getting-started/introduction.html" target="_blank" class="btn btn-default btn-block">
             View Documentation
@@ -212,48 +206,28 @@
     </div>
   </div>
   <!--   Core JS Files   -->
-  <script src="../documentation/js/core/jquery.min.js"></script>
-  <script src="../documentation/js/core/popper.min.js"></script>
-  <script src="../documentation/js/core/bootstrap-material-design.min.js"></script>
-  <script src="../documentation/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-  <!-- Plugin for the momentJs  -->
-  <script src="../documentation/js/plugins/moment.min.js"></script>
-  <!--  Plugin for Sweet Alert -->
-  <script src="../documentation/js/plugins/sweetalert2.js"></script>
-  <!-- Forms Validations Plugin -->
-  <script src="../documentation/js/plugins/jquery.validate.min.js"></script>
-  <!-- Plugin for the Wizard, full documentation here: https://github.com/VinceG/twitter-bootstrap-wizard -->
-  <script src="../documentation/js/plugins/jquery.bootstrap-wizard.js"></script>
-  <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
-  <script src="../documentation/js/plugins/bootstrap-selectpicker.js"></script>
-  <!--  Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
-  <script src="../documentation/js/plugins/bootstrap-datetimepicker.min.js"></script>
-  <!--  DataTables.net Plugin, full documentation here: https://datatables.net/  -->
-  <script src="../documentation/js/plugins/jquery.dataTables.min.js"></script>
-  <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
-  <script src="../documentation/js/plugins/bootstrap-tagsinput.js"></script>
-  <!-- Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
-  <script src="../documentation/js/plugins/jasny-bootstrap.min.js"></script>
-  <!--  Full Calendar Plugin, full documentation here: https://github.com/fullcalendar/fullcalendar    -->
-  <script src="../documentation/js/plugins/fullcalendar.min.js"></script>
-  <!-- Vector Map plugin, full documentation here: http://jvectormap.com/documentation/ -->
-  <script src="../documentation/js/plugins/jquery-jvectormap.js"></script>
-  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-  <script src="../documentation/js/plugins/nouislider.min.js"></script>
-  <!-- Include a polyfill for ES6 Promises (optional) for IE11, UC Browser and Android browser support SweetAlert -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
-  <!-- Library for adding dinamically elements -->
-  <script src="../documentation/js/plugins/arrive.min.js"></script>
+  <script src="js/core/jquery.min.js"></script>
+  <script src="js/core/popper.min.js"></script>
+  <script src="js/core/bootstrap-material-design.min.js"></script>
+  <script src="js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <script src="js/plugins/moment.min.js"></script>
+  <script src="js/plugins/sweetalert2.js"></script>
+  <script src="js/plugins/jquery.validate.min.js"></script>
+  <script src="js/plugins/jquery.bootstrap-wizard.js"></script>
+  <script src="js/plugins/bootstrap-selectpicker.js"></script>
+  <script src="js/plugins/bootstrap-datetimepicker.min.js"></script>
+  <script src="js/plugins/jquery.dataTables.min.js"></script>
+  <script src="js/plugins/bootstrap-tagsinput.js"></script>
+  <script src="js/plugins/jasny-bootstrap.min.js"></script>
+  <script src="js/plugins/fullcalendar.min.js"></script>
+  <script src="js/plugins/jquery-jvectormap.js"></script>
+  <script src="js/plugins/nouislider.min.js"></script>
+  <script src="js/plugins/arrive.min.js"></script>
   <!--  Google Maps Plugin    -->
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-  <!-- Chartist JS -->
-  <script src="../documentation/js/plugins/chartist.min.js"></script>
-  <!--  Notifications Plugin    -->
-  <script src="../documentation/js/plugins/bootstrap-notify.js"></script>
-  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
-  <script src="../documentation/js/material-dashboard.js?v=2.1.2" type="text/javascript"></script>
-  <!-- Material Dashboard DEMO methods, don't include it in your project! -->
-  <script src="../documentation/demo/demo.js"></script>
+  <script src="js/plugins/chartist.min.js"></script>
+  <script src="js/material-dashboard.js?v=2.1.2" type="text/javascript"></script>
+  <script src="js/demo.js"></script>
 
 </body>
 
