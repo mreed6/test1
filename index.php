@@ -92,7 +92,6 @@
                     <i class="material-icons">content_copy</i>
                   </div>
                   <p class="card-category"># of Logs</p>
-                  <h3 class="card-title"><?php echo $total_items; ?></h3>
                 </div>
                 <div class="card-footer">
                   <div class="stats">
@@ -104,7 +103,6 @@
           </div>
           <div class="card">
             <div class="card-header card-header-primary">
-              <h4 class="card-title">Log Files for <?php echo $uname; ?></h4>
             </div>
             <div class="card-body">
               <div id="typography">
