@@ -137,7 +137,7 @@
             &copy;
             <script>
               document.write(new Date().getFullYear())
-            </script>, made with <i class="material-icons">favorite</i> by Cam, Reed and Darius for CSI 3660
+            </script>, made with <i class="material-icons">favorite</i> by Ravin, Sal, Carmia, Conner and Reed
           </div>
         </div>
       </footer>
