@@ -38,22 +38,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/../#top">HOME</a>
+                        <a class="nav-link" href="/../#top">Link0</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/../#about">ABOUT US</a>
+                        <a class="nav-link" href="/../#about">Link1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/../#courses">OUR COURSES</a>
+                        <a class="nav-link" href="/../#courses">Link2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/../#services">OUR SERVICES</a>
+                        <a class="nav-link" href="/../#services">Link3</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/../#testimonials">TESTIMONIALS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/../#contact">CONTACT US</a>
+                        <a class="nav-link" href="/../#contact">LOGOUT</a>
                     </li>
                 </ul>
             </div>
