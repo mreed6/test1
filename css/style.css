@@ -16,6 +16,7 @@
     position: sticky;
     top: 0;
     z-index: 10;
+    color: whitesmoke;
 }
 .navbar-brand img
 {
@@ -34,7 +35,7 @@
 }
 #nav-bar ul li a:hover
 {
-    color: #747c85!important;
+    color: white!important;
 }
 .navbar
 {
