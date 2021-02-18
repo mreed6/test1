@@ -20,16 +20,28 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
-        <a class="navbar-brand" href="#">Logo</a>
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+            <button class="navbar-toggler hidden-md-up pull-right" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+                ☰
+            </button>
+            <a class="navbar-brand" href="#">Navbar sm</a>
+            <div class="collapse navbar-toggleable-sm" id="collapsingNavbar2">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav pull-xs-right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <div class="row">
         <div class="col-lg-12">
