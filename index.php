@@ -18,12 +18,12 @@
 </head>
 
 <body class="">
-  <div class="wrapper ">
+  <!--<div class="wrapper ">
     <div class="navbar" data-color="azure" data-background-color="orange">
-      <!--
+
         Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
         Tip 2: you can also add an image using data-image tag
-    -->
+
       <div class="logo"><a href="./dashboard.php" class="simple-text logo-normal">
           Syslog Server
         </a></div>
@@ -49,7 +49,7 @@
           </li>
         </ul>
       </div>
-    </div>
+    </div>-->
     <div class="main-panel">
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
