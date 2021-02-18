@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm bg-primary navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
         <a class="navbar-brand" href="#">Logo</a>
         <ul class="navbar-nav">
             <li class="nav-item">
