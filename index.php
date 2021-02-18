@@ -28,20 +28,20 @@
 <body>
     <div class="mynav">
         <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-            <a href="#" class="navbar-brand">Brand</a>
+            <a href="#" class="navbar-brand">Back to Work Page</a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav">
-                    <a href="#" class="nav-item nav-link active">Home</a>
-                    <a href="#" class="nav-item nav-link">Profile</a>
-                    <a href="#" class="nav-item nav-link">Messages</a>
-                    <a href="#" class="nav-item nav-link disabled" tabindex="-1">Reports</a>
+                    <a href="#" class="nav-item nav-link active">Link1</a>
+                    <a href="#" class="nav-item nav-link">Link2</a>
+                    <a href="#" class="nav-item nav-link">Link3</a>
+                    <a href="#" class="nav-item nav-link disabled" tabindex="-1">Link4</a>
                 </div>
                 <div class="navbar-nav ml-auto">
-                    <a href="#" class="nav-item nav-link">Login</a>
+                    <a href="#" class="nav-item nav-link">Logout</a>
                 </div>
             </div>
         </nav>
@@ -50,15 +50,15 @@
         <div class="col-lg-11">
             <div class="card ">
                 <div class="card-header ">
-                    <h5 class="card-title">Users Behavior</h5>
-                    <p class="card-category">24 Hours performance</p>
+                    <h5 class="card-title">Admin Dashboard</h5>
+                    <p class="card-category">Data goes here!</p>
                 </div>
                 <div class="card-body ">
                 </div>
                 <div class="card-footer ">
                     <hr>
                     <div class="stats">
-                        <i class="fa fa-history"></i> Updated 3 minutes ago
+                        <i class="fa fa-history"></i> This is the footer
                     </div>
                 </div>
             </div>
