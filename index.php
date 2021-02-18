@@ -26,7 +26,7 @@
 
 <body>
     <div class="mynav">
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
             <a href="#" class="navbar-brand">Brand</a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
