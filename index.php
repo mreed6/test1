@@ -35,10 +35,10 @@
 
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav">
-                    <a href="#" class="nav-item nav-link active">Link1</a>
+                    <a href="#" class="nav-item nav-link">Link1</a>
                     <a href="#" class="nav-item nav-link">Link2</a>
                     <a href="#" class="nav-item nav-link">Link3</a>
-                    <a href="#" class="nav-item nav-link disabled" tabindex="-1">Link4</a>
+                    <a href="#" class="nav-item nav-link">Link4</a>
                 </div>
                 <div class="navbar-nav ml-auto">
                     <a href="#" class="nav-item nav-link">Logout</a>
