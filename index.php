@@ -25,7 +25,7 @@
 </head>
 
 <body>
-    <div class="bs-example">
+    <div class="mynav">
         <nav class="navbar navbar-expand-md navbar-light bg-light">
             <a href="#" class="navbar-brand">Brand</a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
