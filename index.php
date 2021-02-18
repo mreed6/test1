@@ -32,7 +32,7 @@
         </ul>
     </nav>
     <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-10">
             <div class="card ">
                 <div class="card-header ">
                     <h5 class="card-title">Users Behavior</h5>
