@@ -1,4 +1,4 @@
 /* change the background color */
-.nav {
+.navbar navbar-expand-sm bg-dark navbar-dark fixed-top {
     background-color: orange;
 }
