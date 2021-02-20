@@ -17,9 +17,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -33,34 +30,27 @@
 <body>
     <section id="nav-bar">
 
-
-        <nav class="navbar navbar-inverse bg-primary">
-            <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <a><b>Back to Work Page</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <span class="navbar-text">&nbsp;</span>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav flex-column">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="http://touruapp.com/">Home <span class="sr-only">(current)</span></a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/../#top">Link0</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://touruapp.com/about-us-2/">About Us</a>
+                        <a class="nav-link" href="/../#about">Link1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://touruapp.com/contact-2/">Contact</a>
+                        <a class="nav-link" href="/../#courses">Link2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://touruapp.com/support-2/">Support</a>
+                        <a class="nav-link" href="/../#services">Link3</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Legal
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="http://touruapp.com/terms-2/">Terms</a>
-                            <a class="dropdown-item" href="http://touruapp.com/privacy-2/">Privacy</a>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/../#contact">LOGOUT</a>
                     </li>
                 </ul>
             </div>
@@ -84,6 +74,16 @@
             </div>
         </div>
     </div>
+    <script>
+        $(window).on('click', function(event){
+            // element over which click was made
+            var clickOver = $(event.target)
+            if ($('.navbar .navbar-toggler').attr('aria-expanded') == 'true' && clickOver.closest('.navbar').length === 0) {
+                // Click on navbar toggler button
+                $('button[aria-expanded="true"]').click();
+            }
+        });
+    </script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
