@@ -7,6 +7,7 @@
     <link href="css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
     <link href="css/demo.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
     Admin Dashboard
@@ -25,11 +26,6 @@
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
-        </div>
-
-        <div style="padding-left:16px">
-            <h2>Responsive Topnav Example</h2>
-            <p>Resize the browser window to see how it works.</p>
         </div>
 
     </section>
