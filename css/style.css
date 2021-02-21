@@ -23,7 +23,7 @@ body {
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -31,7 +31,7 @@ body {
 }
 
 .topnav a:hover {
-    background-color: black;
+    background-color: #ddd;
     color: black;
 }
 
