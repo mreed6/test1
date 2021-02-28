@@ -17,7 +17,8 @@ body {
 
 .topnav {
     overflow: hidden;
-    background-color: skyblue;
+    /*background-color: skyblue;*/
+    background: linear-gradient(to right, #0062E6, #33AEFF);
 }
 
 .topnav a {
