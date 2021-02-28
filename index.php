@@ -23,21 +23,11 @@
 <!--            <a href="#news">News</a>-->
 <!--            <a href="#contact">Contact</a>-->
 <!--            <a href="#about">About</a>-->
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link active" href=".">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="admin-manage.php">Manage Employees</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="admin_distance.php">Distance Tracking</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./controller/logout.php">LOGOUT&nbsp;</a>
-                    <a class="nav-link"><?php echo "Welcome" . " " . $adminuser; ?></a>
-                </li>
-            </ul>
+            <a class="nav-link active" href=".">Home</a>
+            <a class="nav-link" href="admin-manage.php">Manage Employees</a>
+            <a class="nav-link" href="admin_distance.php">Distance Tracking</a>
+            <a class="nav-link" href="./controller/logout.php">LOGOUT&nbsp;</a>
+            <a class="nav-link"><?php echo "Welcome" . " " . $adminuser; ?></a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
