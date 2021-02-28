@@ -17,14 +17,13 @@ body {
 
 .topnav {
     overflow: hidden;
-    /*background-color: skyblue;*/
     background: linear-gradient(to right, #0062E6, #33AEFF);
 }
 
 .topnav a {
     float: left;
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -36,9 +35,24 @@ body {
     color: black;
 }
 
-.topnav a.active {
-    background-color: black;
-    color: white;
+.topnav a:active {
+    background-color: #ddd;
+    color: black;
+}
+
+a:active {
+    background-color: #ddd;
+    color: black;
+}
+
+a.nav-link.active {
+    background-color: #ddd;
+    color: black;
+}
+
+li.nav-link.active {
+    background-color: #ddd;
+    color: black;
 }
 
 .topnav .icon {
