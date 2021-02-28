@@ -17,7 +17,6 @@
 
 <body>
     <section id="nav-bar">
-        <a href="admin_temp.php"><b>Return To Work Safety Suite - Admin</b></a>
         <div class="topnav" id="myTopnav">
 <!--            <a href="#home" class="active">Home</a>-->
 <!--            <a href="#news">News</a>-->
