@@ -52,7 +52,7 @@ $resultTable = mysqli_query($conn,$sql);
 
     <nav class="navbar navbar-expand-lg navbar-top topnav" id="myTopnav">
         <div class="topnav">
-            <a href="admin_temp.php"><b>Return To Work Safety Suite - Admin</b></a>
+
             <div id="myLinks">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">

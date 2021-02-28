@@ -23,7 +23,7 @@
 <!--            <a href="#news">News</a>-->
 <!--            <a href="#contact">Contact</a>-->
 <!--            <a href="#about">About</a>-->
-            <a class="nav-link active" href=".">Home</a>
+            <a href="admin_temp.php"><b>Return To Work Safety Suite - Admin</b></a>
             <a class="nav-link" href="admin-manage.php">Manage Employees</a>
             <a class="nav-link" href="admin_distance.php">Distance Tracking</a>
             <a class="nav-link" href="./controller/logout.php">LOGOUT&nbsp;</a>
